@@ -4,7 +4,7 @@ interface Options {
   prompt: string;
 }
 
-export const orthographyCheckUseCase = async (
+export const OrthographyCheckUseCase = async (
   openai: OpenAI,
   options: Options,
 ) => {
